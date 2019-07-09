@@ -19,6 +19,7 @@ public class AutoComplete {
 		WebElement autoComplete = driver.findElement(By.className("pac-container"));
 		autoComplete.click();
 		driver.quit();
+		
 	}
 
 }
